@@ -26,16 +26,3 @@ django-admin startproject example .
 ./manage.py migrate
 ./manage.py createsuperuser
 
-
-product API: 
-http://127.0.0.1:8000/v1/product-list/
-http://127.0.0.1:8000/v1/product-detail/4/
-http://127.0.0.1:8000/v1/product-create/
-http://127.0.0.1:8000/v1/product-update/4/ (only superuser can perform this certain operation)
-http://127.0.0.1:8000/v1/product-delete/4/ (only superuser can perform this certain operation)
-
-
-category API: In category only one api's becase it's similar to prodcuts crud operaion
-http://127.0.0.1:8000/v1/category-list/
-
-
